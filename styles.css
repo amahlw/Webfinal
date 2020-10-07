@@ -1,0 +1,55 @@
+.data-input {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+/* body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#headline-display {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+#data-output {
+    margin: 100px 30px;
+}
+
+#student-info {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 30px 40px 30px;
+    line-height: 40px;
+}
+
+.some-page-wrapper {
+    margin: 15px;
+    background-color: red;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.blue-column {
+    background-color: blue;
+    height: 100px;
+} */
