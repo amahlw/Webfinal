@@ -5,8 +5,8 @@ const display = document.querySelector('#headline-display')
 const inputSize = document.querySelector('#input-size')
     // The element that displays the value 
 const showSize = document.querySelector('#show-size')
-    // Repeat this for the input and "show" elements
-    // adding event listener cause thats how it functions 
+
+// adding event listener cause thats how it functions 
 inputSize.addEventListener('input', handleInput)
 const inputFont = document.querySelector('#select-font')
 const showFont = document.querySelector('#show-font')
@@ -20,7 +20,7 @@ selectedBG.addEventListener('input', handleInput)
 const inputText = document.querySelector('#enter-text')
 const showText = document.querySelector('#headline-display')
 inputText.addEventListener('input', handleInput)
-    // style properties 
+
 function handleInput() {
     // font size:
     const fontSize = inputSize.value + 'px'

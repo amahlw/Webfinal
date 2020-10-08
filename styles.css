@@ -1,52 +1,53 @@
-        body {
-            background-color: rgb(106, 151, 104);
-            font-family: Arial, Helvetica, sans-serif;
-            flex-direction: column;
-            display: flex;
-        }
-        
-        #container {
-            margin: 2px;
-            display: flex;
-            flex-wrap: wrap-reverse;
-            justify-content: flex-start;
-            /* display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr; */
-        }
-        
-        .box {
-            color: burlywood;
-            align-self: end;
-        }
-        
-        #student-info {
-            padding: 2em;
-        }
-        
-        #data-input {
-            margin: 100px 30px;
-            border: 1px solid black;
-            width: 300px;
-            height: 300px;
-            margin: 10px;
-            background-color: coral;
-        }
-        
-        #headline-display {
-            line-height: 40px;
-            width: 150px;
-            height: 150px;
-            margin: 10px;
-            border: 1px solid;
-            flex-direction: row;
-        }
-        
-        #data-output {
-            padding: 0.5em;
-            margin: 0 2em 0 0;
-        }
-        
-        article {
-            display: grid;
-        }
+body {
+    background-color: rgb(75, 116, 102);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    float: left;
+}
+
+#container {
+    margin: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    float: inline-start;
+    background: rgb(158, 116, 37);
+    width: fit-content;
+}
+
+.box {
+    color: rgb(100, 122, 168);
+    background-color: rgb(83, 85, 63);
+}
+
+#student-info {
+    padding: 2em;
+    background-color: rgb(84, 66, 148, 220);
+}
+
+#data-input {
+    margin: 100px 30px;
+    border: 1px solid rgb(173, 81, 109);
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    background-color: yellowgreen;
+}
+
+#headline-display {
+    line-height: 40px;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border: 1px solid rgb(158, 116, 37);
+}
+
+#data-output {
+    padding: 0.5em;
+    margin: 0 2em 0 0;
+    background-color: yellow;
+}
+
+h1 {
+    f
+}
