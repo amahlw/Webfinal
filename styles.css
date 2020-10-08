@@ -1,55 +1,52 @@
-.data-input {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-
-/* body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-#headline-display {
-    width: 300px;
-    height: 300px;
-    border: 1px solid black;
-    margin: 10px;
-}
-
-#data-output {
-    margin: 100px 30px;
-}
-
-#student-info {
-    display: flex;
-    flex-direction: column;
-    margin: 40px 30px 40px 30px;
-    line-height: 40px;
-}
-
-.some-page-wrapper {
-    margin: 15px;
-    background-color: red;
-}
-
-.row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-.column {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
-}
-
-.blue-column {
-    background-color: blue;
-    height: 100px;
-} */
+        body {
+            background-color: rgb(106, 151, 104);
+            font-family: Arial, Helvetica, sans-serif;
+            flex-direction: column;
+            display: flex;
+        }
+        
+        #container {
+            margin: 2px;
+            display: flex;
+            flex-wrap: wrap-reverse;
+            justify-content: flex-start;
+            /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; */
+        }
+        
+        .box {
+            color: burlywood;
+            align-self: end;
+        }
+        
+        #student-info {
+            padding: 2em;
+        }
+        
+        #data-input {
+            margin: 100px 30px;
+            border: 1px solid black;
+            width: 300px;
+            height: 300px;
+            margin: 10px;
+            background-color: coral;
+        }
+        
+        #headline-display {
+            line-height: 40px;
+            width: 150px;
+            height: 150px;
+            margin: 10px;
+            border: 1px solid;
+            flex-direction: row;
+        }
+        
+        #data-output {
+            padding: 0.5em;
+            margin: 0 2em 0 0;
+        }
+        
+        article {
+            display: grid;
+        }
